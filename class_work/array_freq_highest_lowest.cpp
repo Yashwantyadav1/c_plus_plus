@@ -1,5 +1,7 @@
 #include <iostream>
 #include <map>
+#include <climits> // Include this header for INT_MIN and INT_MAX
+
 using namespace std;
 
 int main() {
@@ -42,3 +44,4 @@ int main() {
 
     return 0;
 }
+
