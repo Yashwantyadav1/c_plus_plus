@@ -5,7 +5,8 @@ int main(){
     cin>>n;
     for(int row=0; row<n; row++){
         for(int col=0; col<row+1; col++){
-            cout<<row+1 <<"* ";
+            // when we use Row And Col they give same result as your desire
+            cout<<col+1 <<"* "; 
         }
         cout<<endl;
         
