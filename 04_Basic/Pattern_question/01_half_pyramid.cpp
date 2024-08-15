@@ -7,6 +7,7 @@ int main(){
         int start = row+1;
         for(int col=0; col<row+1; col++){
             cout<<start <<" ";
+            // cout<<row+col+1;
             start = start+1;
         }
         cout<<endl;
