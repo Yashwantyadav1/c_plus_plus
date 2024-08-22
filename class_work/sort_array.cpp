@@ -17,7 +17,7 @@ int main() {
         m1[arr1[j]]++;
     }
     for(auto it:m1) {
-        cout<<it.first<<endl;
+        cout<<it.first;
     }
     return 0;
 
