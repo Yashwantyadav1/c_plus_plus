@@ -2,7 +2,9 @@
 using namespace std;
 
 int main(){
-    int a=12;
-    a=a>>1;
+    // Right shift 
+    int a=25;
+   // a=a>>1;
+    a=a>>2;
     cout<<a;
 }
