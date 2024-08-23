@@ -11,7 +11,6 @@ void rearrangeArray(vector<int> & arr){
         swap(arr[left], arr[right]);
         left++;
         right--;
-
     }
     else if (arr[left]>0 && arr[right]>0){
         right--;
