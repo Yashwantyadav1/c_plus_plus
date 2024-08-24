@@ -9,6 +9,8 @@ int main(){
 And if two value is false it will return false value 
 Otherwise it wiil true*/
     cout<<(a | b)<<endl;
+
     cout<<(a | k)<<endl;
+    
     cout<<(j | b)<<endl;
 }
