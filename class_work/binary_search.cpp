@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// Function to perform binary search
 int binarySearch(const vector<int>& arr, int target) {
     int left = 0;
     int right = arr.size() - 1;
