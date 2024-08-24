@@ -18,7 +18,6 @@ int main() {
     int elementWithMaxFrequency = -1;
     int elementWithMinFrequency = -1;
 
-    // Finding the elements with the highest and lowest frequency
     for (auto it : m) {
         int frequency = it.second;
         int element = it.first;
