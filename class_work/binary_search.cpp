@@ -15,7 +15,6 @@ int binarySearch(const vector<int>& arr, int target) {
         if (arr[mid] < target) {
             left = mid + 1;
         } 
-        // If the target is smaller, ignore the right half
         else {
             right = mid - 1;
         }
