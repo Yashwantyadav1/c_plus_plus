@@ -26,7 +26,6 @@ int main() {
     vector<int> arr = {2, 3, 4, 10, 40};
     int target = 10;
 
-    // Make sure the array is sorted (binary search requires a sorted array)
     sort(arr.begin(), arr.end());
 
     int result = binarySearch(arr, target);
