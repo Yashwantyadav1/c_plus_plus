@@ -19,9 +19,7 @@ void rearrangeArray(vector<int> & arr){
         left++;
         right--;
     }
-
    }
-   
 }
 
 int main() {

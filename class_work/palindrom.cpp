@@ -22,7 +22,9 @@ int main() {
     }
 
     if (isPalindrome) {
+        
         cout << "\"" << input << "\" is a palindrome." << endl;
+
     } else {
        cout << "\"" << input << "\" is not a palindrome." << endl;
     }
