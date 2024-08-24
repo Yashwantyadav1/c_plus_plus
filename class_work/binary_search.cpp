@@ -6,7 +6,7 @@ int binarySearch(const vector<int>& arr, int target) {
     int right = arr.size() - 1;
 
     while (left <= right) {
-        int mid = left + (right - left) / 2; // To prevent overflow
+        int mid = left + (right - left) / 2; 
 
         // Check if the target is present at mid
         if (arr[mid] == target) {
