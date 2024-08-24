@@ -8,12 +8,11 @@ int main() {
     int n = 5;
     int arr[] = {1, 1, 8, 3, 5};
     map<int, int> m;
-    
+
     for (int i = 0; i < n; i++) {
         m[arr[i]]++;
     }
 
-    // Variables to track the element with the highest and lowest frequency
     int maxFrequency = INT_MIN;
     int minFrequency = INT_MAX;
     int elementWithMaxFrequency = -1;
