@@ -8,7 +8,6 @@ int binarySearch(const vector<int>& arr, int target) {
     while (left <= right) {
         int mid = left + (right - left) / 2; 
 
-        // Check if the target is present at mid
         if (arr[mid] == target) {
             return mid;
         }
