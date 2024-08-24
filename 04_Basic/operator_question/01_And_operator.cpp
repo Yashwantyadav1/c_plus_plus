@@ -9,7 +9,7 @@ int main(){
 //     Otherwise it will give False value  */
 //     cout<<( a & b);
 
-    int k=2;
-    int h=3;
+    int k=5;
+    int h=9;
     cout<<(k & h);
 }
