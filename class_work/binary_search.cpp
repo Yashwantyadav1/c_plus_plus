@@ -19,8 +19,6 @@ int binarySearch(const vector<int>& arr, int target) {
             right = mid - 1;
         }
     }
-
-    // Target is not present in the array
     return -1;
 }
 
