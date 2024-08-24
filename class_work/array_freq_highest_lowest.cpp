@@ -33,7 +33,6 @@ int main() {
         }
     }
 
-    // Printing the results
     cout << "Element with highest frequency: " << elementWithMaxFrequency 
          << " (" << maxFrequency << " times)" << endl;
     cout << "Element with lowest frequency: " << elementWithMinFrequency 
