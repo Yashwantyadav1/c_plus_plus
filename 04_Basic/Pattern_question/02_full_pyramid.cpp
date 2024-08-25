@@ -5,7 +5,7 @@ int main(){
     int n;
     cin>>n;
     for(int row=0; row<n; row++){
-        // in this line we print space inverted pyramid 
+        // in this line we print space in the  inverted pyramid 
         for(int col=0; col<n-row-1; col++){
             cout<<" ";
         }
