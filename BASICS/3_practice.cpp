@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+// Multiply Three number  given by user 
 int main(){
     int a,b,c;
     cout<<"Enter the value of a"<<endl;
