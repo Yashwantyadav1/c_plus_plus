@@ -1,10 +1,9 @@
-#include <iostream>
-#include <string>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main(){
-    string firstname="yashraj";
-    string secondname="yadav";
+    string firstname="Yashwant ";
+    string secondname="Yadav";
     string fullname=
     firstname.append(secondname);
     cout<<fullname;
