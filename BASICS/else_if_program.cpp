@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 int main(){
     int age;
@@ -14,6 +14,4 @@ int main(){
         cout<<"You are below 18 & you are a student you can not drivre a vechicle ";
     }
     
-
-
 }
