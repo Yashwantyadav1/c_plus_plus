@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int a,b;
+    int a;
     cout<<"Enter the number of a"<<endl;
     cin>>a;
    if(a % 2 ==0){
