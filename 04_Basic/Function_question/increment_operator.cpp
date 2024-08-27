@@ -4,8 +4,7 @@ void printNum(int a){
     a++;
     ++a;
     ++a;
-    cout<<a<<endl;
-    
+    cout<<a<<endl;   
 }
 int main(){
     int a=5;
