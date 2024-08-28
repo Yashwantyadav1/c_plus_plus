@@ -11,7 +11,6 @@ int main(){
     int num=12;
     num++;
     ++num;
-    num++;
     print(num);
     cout<<num<<endl;
 
