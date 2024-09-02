@@ -14,10 +14,10 @@ int main(){
     cin>>n;
     bool isprime=checkprime(n);
     if(isprime){
-        cout<<"prime\n";
+        cout<<"The given number is prime\n";
 
     }
     else{
-        cout<<"Not a prime\n";
+        cout<<"The given number is Not a prime\n";
     }
 }
