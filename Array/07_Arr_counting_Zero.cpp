@@ -13,6 +13,7 @@ int main(){
             numOne++;
         }
     }
+    
     cout<<"Number of 0 element of this array is: "<<numZero<<endl;
     cout<<"Number of 1 element of this array is: "<<numOne<<endl;
 }
