@@ -8,9 +8,16 @@ int main(){
     while(true){
         if(start>end)
         break;
-        cout<<arr[start]<<" ";
-        cout<<arr[end]<<" ";
+        if(start==end){
+            cout<<arr[start]<<" ";
+        }
+        else{
+            cout<<arr[start]<<" ";
+            cout<<arr[end]<<" ";
+            
+        }
         start++;
         end--;
+
     }
 }
