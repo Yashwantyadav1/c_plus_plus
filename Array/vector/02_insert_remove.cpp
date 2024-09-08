@@ -13,6 +13,8 @@ int main(){
     arr.push_back(5);
     arr.push_back(9);
     arr.push_back(7);
+    arr.push_back(0);
+    arr.push_back(9);
 
     // print the element of vector
     for(int i=0; i<arr.size();i++){
