@@ -2,11 +2,16 @@
 #include<vector>
 using namespace std;
 int main(){
-    vector<int>arr{1,10,20,30,62,56,45};
+    vector<int>arr{1,10,30,30,50,56,59};
+    int sum=60;
     for(int i=0; i<arr.size(); i++){
         int element =arr[i];
         for(int j=i+1; j<arr.size();j++){
-            cout<<"("<<element <<","<<arr[j]<<")"<<endl;
+            // cout<<"("<<element <<","<<arr[j]<<")"<<endl;
+            if(element + arr[j]==sum){
+                cout<<"pair is found "<<"("<<element<<","<<arr[j]<<")"<<"="<<sum<<endl;
+            }
         }
+        
     }
 }
