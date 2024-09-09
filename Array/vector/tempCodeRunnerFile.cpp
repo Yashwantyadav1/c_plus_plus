@@ -1,2 +1,5 @@
- // cout<<arr.size()<<endl;
-    // cout<<arr.capacity()<<endl;
+ 
+    // for (int i = 0; i < brr.size(); i++) {
+    //     cout << brr[i] << " ";
+    // }
+    // cout << endl;
