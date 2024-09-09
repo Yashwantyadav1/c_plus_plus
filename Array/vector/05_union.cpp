@@ -8,10 +8,13 @@ int main(){
     int sizeb=4;
     vector<int>ans;
     for(int i=0; i<sizea;i++){
+        
         ans.push_back(arr[i]);
     }
     for(int i=0; i<sizeb;i++){
-        ans.push_back(brr[i]);
+        // if(ans!==INT_MIN){
+            ans.push_back(brr[i]);
+        // }
     }
     cout<<"the union of the array is "<<endl;
     for(int i=0;i<ans.size(); i++){
