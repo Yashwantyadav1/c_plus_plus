@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 int main(){
-    vector<int>arr{12,52,32,45,60,40,};
+    vector<int>arr{12,52,32,45,60,40,100,};
     int sum=112;
     for(int i=0; i<arr.size(); i++){
         int element1=arr[i];
