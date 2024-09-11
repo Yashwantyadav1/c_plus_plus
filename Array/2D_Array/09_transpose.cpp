@@ -12,9 +12,8 @@ void transposeArr(int arr[][4], int rows, int cols, int transposeArr[][3]){
 
 int main(){
     int arr[3][4] = {{1, 8, 6, 4}, {7, 5, 6, 4}, {9, 5, 1, 6}};
-    int transpose[4][3];  // Transposed array of size 4x3
+    int transpose[4][3]; 
     
-    // Print original array
     cout << "Original array:" << endl;
     for(int i=0; i<3; i++){
         for(int j=0; j<4; j++){
