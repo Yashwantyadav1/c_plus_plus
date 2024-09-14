@@ -1,5 +1,5 @@
-#include<iostream>
-#include<vector>
+#include<bits/stdc++.h>
+// #include<vector>
 using namespace std;
 int findunique(vector<int>arr){
     int ans = 0;
