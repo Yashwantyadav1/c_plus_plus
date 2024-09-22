@@ -9,5 +9,6 @@ int main(){
             maxi = arr[i] ; 
         }
     }
+    
     cout<<"The maximum number is : "<<maxi<<endl;
 }
