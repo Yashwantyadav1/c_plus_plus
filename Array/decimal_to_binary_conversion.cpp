@@ -9,6 +9,7 @@ int decimalToBinaryMethod(int n){
         binaryno= bits*pow(10,i++)+binaryno;
         n=n>>1;
     }
+    
     return binaryno;
 }
 int main(){
