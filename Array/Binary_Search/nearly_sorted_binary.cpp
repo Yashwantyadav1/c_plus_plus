@@ -24,7 +24,7 @@ int binarySearch(vector<int> arr,int target){
 }
 int main(){
     vector<int>arr{10,3,40,20,50,80,70};
-    int target=800;
+    int target=3;
     int ans=binarySearch(arr,target);
     cout<<"Index of target "<< target<<" "<< ans<<endl;
 }
