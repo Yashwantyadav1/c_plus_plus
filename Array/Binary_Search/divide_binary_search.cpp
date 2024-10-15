@@ -17,7 +17,7 @@ int solve(int dividend, int divisor) {
         }
         else {
             ans = mid;
-            s = mid + 1;
+            s = mid + 1;ṇ
         }
         mid = s + (e - s) / 2;
     }
